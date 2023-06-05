@@ -1,5 +1,5 @@
-name: 'Home Assistant: hassfest'
-description: 'Home Assistant: hassfest'
+name: 'VionetaOS: hassfest'
+description: 'VionetaOS: hassfest'
 runs:
   using: "composite"
   steps: 

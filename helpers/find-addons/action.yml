@@ -1,4 +1,4 @@
-name: 'Home Assistant helper: find-addons'
+name: 'Vioneta helper: find-addons'
 description: 'Find all add-ons directories in the repository'
 outputs:
   addons:

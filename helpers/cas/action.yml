@@ -1,4 +1,4 @@
-name: 'Home Assistant helper: CAS'
+name: 'Vioneta helper: CAS'
 description: 'GitHub action helper: CAS'
 inputs:
   version:

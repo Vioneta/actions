@@ -1,4 +1,4 @@
-name: 'Home Assistant helper: Codenotary'
+name: 'Vioneta helper: Codenotary'
 description: 'GitHub action helper: Codenotary'
 inputs:
   source:
@@ -14,7 +14,7 @@ inputs:
   signer:
     description: CAS Signer ID/Email
     required: false
-    default: "notary@home-assistant.io"
+    default: "admin@vioneta.com"
   asset:
     description: CAS Asset name
     required: false
@@ -23,7 +23,7 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - uses: home-assistant/actions/helpers/cas@master
+    - uses: Vioneta/actions/helpers/cas@master
       with:
         version: ${{ inputs.version }}
 

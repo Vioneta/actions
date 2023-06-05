@@ -1,4 +1,4 @@
-FROM ghcr.io/home-assistant/home-assistant:beta
+FROM ghcr.io/vioneta/vionetaos:beta
 
 COPY entrypoint.sh /entrypoint.sh
 COPY requirements.txt .
@@ -9,7 +9,7 @@ WORKDIR "/github/workspace"
 ENTRYPOINT ["/entrypoint.sh"]
 
 LABEL "name"="hassfest"
-LABEL "maintainer"="Home Assistant <hello@home-assistant.io>"
+LABEL "maintainer"="Vioneta <admin@vioneta.com>"
 LABEL "version"="1.1"
 
 LABEL "com.github.actions.name"="hassfest"

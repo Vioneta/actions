@@ -1,4 +1,4 @@
-name: 'Home Assistant helper: JQ'
+name: 'Vioneta helper: JQ'
 description: 'GitHub action helper: JQ'
 inputs:
   path:

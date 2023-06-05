@@ -1,4 +1,4 @@
-name: 'Home Assistant helper: verify-version'
+name: 'Vioneta helper: verify-version'
 description: 'GitHub action helper: verify-version'
 inputs:
   ignore-dev:

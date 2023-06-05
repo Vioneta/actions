@@ -1,4 +1,4 @@
-name: 'Home Assistant helper: version-push'
+name: 'Vioneta helper: version-push'
 description: 'GitHub action helper: version-push'
 inputs:
   key:
@@ -33,7 +33,7 @@ runs:
         fi
 
     - shell: bash
-      run: git clone --depth 1 https://github.com/home-assistant/version.git /tmp/version
+      run: git clone --depth 1 https://github.com/Vioneta/version.git /tmp/version
 
     - shell: bash
       run: |
