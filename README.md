@@ -1,12 +1,12 @@
 # actions
 
-GitHub Actions and helper for Home Assistant workflows
+GitHub Actions and helper for Vioneta workflows
 
 ## hassfest
 
 _Run hassfest to validate standalone integration repositories._
 
-**action**: `home-assistant/actions/hassfest@master`
+**action**: `Vioneta/actions/hassfest@master`
 
 example implementation:
 
@@ -17,22 +17,21 @@ on:
   push:
   pull_request:
   schedule:
-    - cron:  '0 0 * * *'
+    - cron: "0 0 * * *"
 
 jobs:
   validate:
     runs-on: "ubuntu-latest"
     steps:
-        - uses: "actions/checkout@v4"
-        - uses: "home-assistant/actions/hassfest@master"
+      - uses: "actions/checkout@v4"
+      - uses: "Vioneta/actions/hassfest@master"
 ```
 
 This will run the `hassfest` action on every push and pull request to all branches, as well as every midnight.
 
-
 ## Helpers
 
-_A collection of GitHub Action helpers, these are considered internal to the Home Assistant organization on GitHub and will change without warning._
+_A collection of GitHub Action helpers, these are considered internal to the Vioneta organization on GitHub and will change without warning._
 
 - [git-init](./helpers/git-init/action.yml)
 - [info](./helpers/info/action.yml)

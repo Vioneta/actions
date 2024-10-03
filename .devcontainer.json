@@ -1,4 +1,4 @@
 {
-	"name": "home-assistant/actions",
-	"image": "mcr.microsoft.com/devcontainers/base:bullseye"
+  "name": "vioneta/actions",
+  "image": "mcr.microsoft.com/devcontainers/base:bullseye"
 }
